@@ -1,0 +1,55 @@
+.App {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 40px 100px 40px 100px;
+  background-color: antiquewhite;
+}
+
+.Nav {
+  display: grid;
+  margin: 20px;
+  width: 250px;
+  height: 600px;
+}
+
+.NavButton {
+  background-color: rgb(169, 211, 211);
+  padding: 20px;
+  margin: 12px;
+  height: 50px;
+}
+
+.NavButton:hover {
+  background-color: rgb(150, 202, 159);
+}
+
+.NavButton.Activated {
+  background-color: rgb(71, 184, 219);
+}
+
+.NavButton.Activated:hover {
+  background-color: rgb(20, 156, 197);
+}
+
+.MainDisplay {
+  margin: 20px;
+  width: 900px;
+  background-color: whitesmoke;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+table {
+  border: 2px solid forestgreen;
+  width: 800px;
+  height: 200px;
+  margin: 20px;
+}
+  
+th {
+  border-bottom: 1px solid black;
+}
+  
+td {
+  text-align: center;
+}
